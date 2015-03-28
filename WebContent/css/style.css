@@ -1,0 +1,182 @@
+body {
+	height: 100%;
+	width: 98%;
+	padding: 0;
+	margin: 0;
+	color: #000000 !important;
+}
+
+#background-image {
+	z-index: -999;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#header-image {
+	z-index: -999;
+	height: 100px;
+	min-width: 1024px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 1px;
+}
+
+.loginUserDetails {
+	padding-top: 10px;
+}
+
+.boxTitle {
+	height: auto;
+}
+
+.loginDiv {
+	width: 40%;
+	margin: 0 auto;
+	background-color: #43A6F5;
+	margin-top: 5%;
+	min-height: 300px;
+}
+
+.inputs {
+	width: 88%;
+	padding: 86px 104px;
+	background-color: #fff;
+}
+
+.chatDiv {
+	width: 262px;
+	float: right;
+	margin-right: 0px;
+}
+
+.allChatDivs {
+	right: 0px;
+	bottom: 72px;
+	position: absolute;
+	z-index: 9000;
+	height: auto;
+}
+
+.welcomediv {
+	float: left;
+}
+
+.logoutbtn {
+	float: right;
+	margin-top: -7px;
+}
+
+.chatDivTitle {
+	width: 262px;
+	background-color: #009587;
+	margin-bottom: 1px;
+	height: 30px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-align: center;
+	line-height: 29px;
+	color: #000000;
+}
+
+.chatDivTitle a {
+	color: #ffffff !important;
+	text-decoration: none;
+	margin: 8px;
+}
+
+.onlineGreen {
+	margin-top: 5px;
+	float: left;
+	width: 8%;
+}
+
+.onlineUsersDIV {
+	float: left;
+	width: 14%;
+	margin-left: 1%;
+}
+
+.onlineUsersDIV ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	min-height: 265px;
+	overflow-y: auto;
+}
+
+.onlineUsersDIV li {
+	font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.onlineUsersDIV li:last-child {
+	border: none;
+}
+
+.onlineUsersDIV li a {
+	text-decoration: none;
+	color: #000040;;
+	display: block;
+	width: 85%;
+	padding-left: 1px;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+	transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.onlineUsersDIV li a:hover {
+	background: #f0fcff;
+}
+
+.groupChat {
+	width: 100%;
+	min-height: 195px;
+	float: left;
+	margin-left: 10%;
+}
+
+.chatboxmat {
+	width: 41%;
+	margin-left: 22%;
+}
+
+.groupChatHistory {
+	margin-bottom: 50px;
+}
+
+.chatHistory {
+	width: 262px;
+}
+
+.chatBox {
+	width: 262px;
+}
+
+.groupChatBox {
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 10%;
+}
+
+.container {
+	display: none;
+	margin: 0 auto;
+}
+
+.highlightColor {
+	background-color: #ff8000;
+}
